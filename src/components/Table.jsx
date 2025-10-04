@@ -1,6 +1,6 @@
 import React from "react";
 
-const table = ({ expenseData, lastRowRef }) => {
+const Table = ({ expenseData, lastRowRef }) => {
   return (
     <div className="overflow-hidden flex-1 flex flex-col">
       <table className="table-auto border border-gray-400 w-full">
@@ -42,4 +42,4 @@ const table = ({ expenseData, lastRowRef }) => {
   );
 };
 
-export default table;
+export default Table;
