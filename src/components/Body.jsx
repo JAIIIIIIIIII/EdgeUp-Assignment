@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import Table from "./table";
+import Table from "./Table";
 const Body = () => {
   const [date, setDate] = useState("");
   const [rent, setRent] = useState(0);
